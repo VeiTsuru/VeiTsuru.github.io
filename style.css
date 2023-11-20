@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    display: flex;
+}
+
 .nav-logo {
     width: 100px; /* Set the width of the circular frame */
     height: 100px; /* Set the height of the circular frame */
@@ -105,9 +110,8 @@ nav{
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 0;
+    padding: 5rem 2rem;
 }
-
 
 .blur{
     position: absolute;
