@@ -22,17 +22,18 @@
      display: block; /* Remove extra space below the image */
 }
 
+.logo{
+    width: 100px; /* Set the width of the circular frame */
+    height: 100px; /* Set the height of the circular frame */
+    border-radius: 50%; /* Make it a circle */
+    overflow: hidden; /* Hide overflow content outside the circle */
+    border: 2px solid #000; /* Add a border around the circle */
+}
+
 .logo-img{
-position: relative;
-  z-index: 20;
-  border-radius: 50%;
-  display: block;
-  height: 200px;
-  width: 200px;
-  border: 5px solid #fff;
-  object-fit: cover;
-  margin: 20px auto;
-  transition: all 0.3s ease;
+    width: 100%; /* Make the image fill the circle */
+     height: auto; /* Maintain aspect ratio */
+     display: block; /* Remove extra space below the image */
 }
 
 a{
