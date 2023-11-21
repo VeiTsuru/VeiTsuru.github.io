@@ -14,7 +14,7 @@ link1.addEventListener('click', () => {
 });
 
 link2.addEventListener('click', () => {
-    scrollToElement('.socials', 1);
+    scrollToElement('.socials');
 });
 
 link3.addEventListener('click', () => {
