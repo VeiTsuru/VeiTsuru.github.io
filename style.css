@@ -18,7 +18,7 @@ img{
     height: 100px; /* Set the height of the circular frame */
     border-radius: 50%; /* Make it a circle */
     overflow: hidden; /* Hide overflow content outside the circle */
-    border: 2px solid #000; /* Add a border around the circle */
+    border: 2px solid #ffff; /* Add a border around the circle */
  }
 
 .nav-logo img {
